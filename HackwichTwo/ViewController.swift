@@ -16,5 +16,19 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func pressMeButtonPressed(_ sender: UIButton) {
+        
+        print("Hello World")
+        
+    }
+    
+    @IBAction func tryAgainButtonPressed(_ sender: Any) {
+        print("Oops, one more time!")
+    }
+    
+    
+    
+    
+    
 }
 
