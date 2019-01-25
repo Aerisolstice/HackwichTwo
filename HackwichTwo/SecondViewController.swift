@@ -9,33 +9,49 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
+  // var txt = "Label"
+  //  didSet {
+  //  showText()
+   // }
+    
+    @IBOutlet var firstLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+       // showText()
     }
+      //  func showText(){
+       //     Text.text = txt
+    }
+            
+        // Do any additional setup after loading the view.
+        
+  //  }
     
 
-    /*
-    // MARK: - Navigation
+     
+  //  @IBAction func changeColorButtonPressed(_ /sender: UIButton) {
+    //    self.view.backgroundColor=UIColor.blue
+        
+        //on button press, set firstLabel to the string, "I did it!"
+        //class UILabel : UIView{
+         //  txt = "I did it!"
+          //  showText ()
+                
+         //   }
+            
+            
+            
+//func showText {"I did it"}
+//UIView.text = var String
+//var String="I did it!"
+// self.UIView setText=I did it.
+//var text = {var hopeItWorks}
+//var hopeItWorks = "I did it!"
+   // }
+    
+     
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-     
-     @IBAction func changeColorButtonPressed(_ sender: Any) {
-     
-     }
-     
-     
-     
-     
-     
-     
-     
-    */
-
-}
+//}
+//}
